@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John's Robotics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #4b3b40;
+            color: #87f6ff;
+        }
+        .hero-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-image: url('images/baground.png');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: #ffffff;
+        }
+        .hero-section img {
+            width: 150px;
+            height: auto;
+        }
+        .hero-section h1 {
+            font-size: 3em;
+            margin: 0.5em 0;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 800px;
+        }
+        .stat {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 1em;
+            border-radius: 10px;
+        }
+        .stat h2 {
+            margin: 0;
+            font-size: 2em;
+            color: #05e9f1;
+        }
+        .stat p {
+            margin: 0;
+            font-size: 1em;
+        }
+        .cta-button {
+            margin-top: 20px;
+            padding: 1em 2em;
+            background-color: #05e9f1;
+            color: #4b3b40;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #037b85;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero-section">
+        <img src="images/logo.png" alt="John's Robotics Logo">
+        <h1>Welcome to John's Robotics</h1>
+        <div class="stats">
+            <div class="stat">
+                <h2>4</h2>
+                <p>Projects</p>
+            </div>
+            <div class="stat">
+                <h2>36</h2>
+                <p>Community Members</p>
+            </div>
+            <div class="stat">
+                <h2>3</h2>
+                <p>People Helping Newcomers</p>
+            </div>
+        </div>
+        <a href="projects.html" class="cta-button">Explore Projects</a>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - John's Robotics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #4b3b40;
+            color: #87f6ff;
+        }
+        .about-section {
+            padding: 2em;
+            background-color: #363136;
+            text-align: center;
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .about-section h2 {
+            font-size: 2.5em;
+            color: #05e9f1;
+            margin-bottom: 0.5em;
+        }
+        .about-section p {
+            font-size: 1.2em;
+            color: #87f6ff;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6em;
+        }
+    </style>
+</head>
+<body>
+    <div class="about-section">
+        <h2>About John's Robotics</h2>
+        <p>Welcome to John's Robotics, where innovation meets creativity. Founded by John, our community is dedicated to advancing the field of robotics through collaborative projects and knowledge sharing. Whether you're a seasoned expert or a curious beginner, you'll find a place in our vibrant community. Join us as we explore the limitless possibilities of robotics.</p>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects - John's Robotics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #4b3b40;
+            color: #87f6ff;
+        }
+        .projects-section {
+            padding: 2em;
+            background-color: #363136;
+            text-align: center;
+        }
+        .projects-section h2 {
+            font-size: 2.5em;
+            color: #05e9f1;
+            margin-bottom: 1em;
+        }
+        .project-card {
+            background-color: #4b3b40;
+            border: 2px solid #05e9f1;
+            border-radius: 10px;
+            padding: 1em;
+            margin: 1em;
+            text-align: left;
+            color: #87f6ff;
+        }
+        .project-card h3 {
+            margin-top: 0;
+        }
+        .project-card a {
+            color: #05e9f1;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .project-card a:hover {
+            text-decoration: underline;
+        }
+        .projects-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="projects-section">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Project 1: The LED project</h3>
+                <p>This project demonstrates how simple compoments like LEDs can be used to make stunning designs.</p>
+                <a href="project1.html">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 2: Line Following Robot</h3>
+                <p>Coming Soon.</p>
+                <a href="project2.html">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 3: Smart lock with acces code</h3>
+                <p>A project based on logic gates to make for a simple lock with 16 different combinations.</p>
+                <a href="project3.html">View Project</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials - John's Robotics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #4b3b40;
+            color: #87f6ff;
+        }
+        .testimonials-section {
+            padding: 2em;
+            background-color: #363136;
+            text-align: center;
+        }
+        .testimonials-section h2 {
+            font-size: 2.5em;
+            color: #05e9f1;
+            margin-bottom: 1em;
+        }
+        .testimonial-card {
+            background-color: #4b3b40;
+            border: 2px solid #05e9f1;
+            border-radius: 10px;
+            padding: 1em;
+            margin: 1em;
+            text-align: left;
+            color: #87f6ff;
+            max-width: 600px;
+            margin: 1em auto;
+        }
+        .testimonial-card p {
+            font-style: italic;
+            margin: 0.5em 0;
+        }
+        .testimonial-card h3 {
+            margin: 0.5em 0 0 0;
+            font-size: 1.2em;
+            color: #05e9f1;
+        }
+        .testimonial-card span {
+            font-size: 0.9em;
+            color: #87f6ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="testimonials-section">
+        <h2>What people think of us</h2>
+        <div class="testimonial-card">
+            <p>"John's Robotics has revolutionized our automation process. The robotic arm project was particularly impressive!"</p>
+            <h3>Jane Doe</h3>
+            <span>CEO, Tech Innovations</span>
+        </div>
+        <div class="testimonial-card">
+            <p>"Working with John was a pleasure. His expertise in robotics is unparalleled, and his projects are always top-notch."</p>
+            <h3>Michael Smith</h3>
+            <span>Lead Engineer, Robotics Co.</span>
+        </div>
+        <div class="testimonial-card">
+            <p>"John's line-following robot project helped us immensely in our research. His work is both innovative and reliable."</p>
+            <h3>Emily Johnson</h3>
+            <span>Research Scientist, AI Labs</span>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - John's Robotics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #4b3b40;
+            color: #87f6ff;
+        }
+        .contact-section {
+            padding: 2em;
+            background-color: #363136;
+            text-align: center;
+        }
+        .contact-section h2 {
+            font-size: 2.5em;
+            color: #05e9f1;
+            margin-bottom: 1em;
+        }
+        .contact-form {
+            background-color: #4b3b40;
+            border: 2px solid #05e9f1;
+            border-radius: 10px;
+            padding: 2em;
+            margin: 1em auto;
+            max-width: 600px;
+        }
+        .contact-form label {
+            display: block;
+            font-size: 1em;
+            margin-bottom: 0.5em;
+            color: #87f6ff;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 1em;
+            border: 1px solid #05e9f1;
+            border-radius: 5px;
+            background-color: #363136;
+            color: #87f6ff;
+            font-size: 1em;
+        }
+        .contact-form button {
+            background-color: #05e9f1;
+            color: #4b3b40;
+            padding: 0.75em 1.5em;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #04c4d0;
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-section">
+        <h2>Contact Me</h2>
+        <form class="contact-form" action="send-email.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>
