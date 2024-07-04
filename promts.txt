@@ -1,1 +1,7 @@
-
+baground.png unknown
+logo.png unknown
+baground_projects.png a collage of robotics projects aspect ratio 9:16
+myJoyrneyBaground.png A teenage boy realy interested in robotics coding a robot
+about-baground.png A tennager named John, whitch hobby are robotics
+about_story.png A tennager named John, which hobby are robotics. Standing with his robotics team proud for one stereoscopic vision robot car
+contact.png a guy calling someone with his mobile
