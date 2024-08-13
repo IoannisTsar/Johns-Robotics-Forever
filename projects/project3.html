@@ -1,22 +1,81 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Project 1 - John's Robotics</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 0;
-                background-color: #4b3b40;
-                color: #87f6ff;
-            }
-        </style>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Electronic Code Lock with Logic Gates</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #4b3b40;
+            color: #87f6ff;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #4b3b40;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color:#05e9f1;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+        }
+    </style>
+</head>
 <body>
-    <h1>Code lock with logic gates</h1>
-    <p>I'm working on it. Stay tuned!</p>
+    <div class="container">
+        <h1>Simple Electronic Code Lock with Logic Gates</h1>
+        <p>Welcome to John's Robotics! Today, we'll explore a basic yet fascinating project: a simple electronic code lock. This project not only helps you understand the fundamental components of electronics but also introduces you to the world of logic gates.</p>
+
+        <h2>Overview</h2>
+        <p>An electronic code lock is a security device that allows access only when a specific code is entered. The image below shows the electronic components used to build a basic version of such a lock. Let's break down the components and their roles in this project.</p>
+        <img src="../projects-gallery/codeLock.png" alt="Schematic">
+
+        <h2>Components</h2>
+        <ul>
+            <li><strong>Resistors</strong>: Limit the current flow in the circuit to prevent damage to other components.</li>
+            <li><strong>Logic Gates</strong>: The building blocks of digital circuits, performing basic logical functions essential to digital systems.</li>
+            <li><strong>LEDs</strong>: Display if acces is granted.</li>
+            <li><strong>Switches</strong>: To enter the combination.</li>
+            <li><strong>Battery</strong>: Power the circuit</li>
+            <li><strong>Breadboard</strong>: Connect the other compoments together</li>
+        </ul>
+
+        <h2>Introduction to Logic Gates</h2>
+        <p>Logic gates are the fundamental components of digital circuits. They take one or more binary inputs and produce a binary output. Here are the most common types of logic gates:</p>
+        <ul>
+            <li><strong>AND Gate</strong>: Outputs true (1) only if all its inputs are true. Think of it as a series connection of switches.</li>
+            <li><strong>OR Gate</strong>: Outputs true if at least one of its inputs is true. This is like a parallel connection of switches.</li>
+            <li><strong>NOT Gate</strong>: Outputs the opposite of the input. If the input is true, the output is false, and vice versa.</li>
+        </ul>
+
+        <h2>How It Works</h2>
+        <p>In our simple code lock, we use a combination of these logic gates to determine if the correct code is entered. For example, if the code is "1010", which is the correct combination, we can use two NOT gates to convert the 0s to 1s and then a handmade 4-input AND gate to check if all the inputs are now '1', if the combination is correct the green LED will light up, indicating unlocking of the device. The red LED will light up when the combination is incorrect and a NOT gate gets the off input from the 4-1nput AND gate and turn it into an on output for the red LED.</p>
+
+        <h2>Building the Code Lock</h2>
+        <ol>
+            <li><strong>Set Up the Circuit</strong>: Place the components on a breadboard according to the above schematic.</li>
+            <p>*The symbol with an 'X' inside a circle means one LED with correct polarity and a resistor connected in series with it in this schematic*</p>
+            <li><strong>Connect the Power</strong>: Ensure all components are correctly powered.</li>
+            <li><strong>Test the Inputs</strong>: Enter the code using switches or buttons connected to the inputs of the logic gates.</li>
+            <li><strong>Check the Output</strong>: If the correct code is entered, the output will activate a relay or LED, indicating the lock is open.</li>
+        </ol>
+
+        <h2>Conclusion</h2>
+        <p>This simple electronic code lock is an excellent project to get hands-on experience with basic electronics and logic gates. By understanding how these components work together, you can create more complex and secure electronic systems in the future.</p>
+        <p>Stay tuned for more exciting projects and tutorials at John's Robotics!</p>
+    </div>
+</body>
+</html>
 </body>  
 </html>
 <!DOCTYPE html>
